@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+h1 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+h2 {
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #2dc4b2;
+}
+
+#console {
+  position: absolute;
+  width: 280px;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: white;
+}
+
+.session {
+  margin-bottom: 20px;
+}
+
+.row {
+  height: 12px;
+  width: 100%;
+}
+h3 {
+  border-top: 15px blue;
+  font-family: Lato, sans-serif;
+}
+
+/*Style for p*/
+p {
+  font-size: 15px;
+  font-family: Lato, sans-serif;
+}
+
+/*Style for the pop-up*/
+.my-popup .mapboxgl-popup-content {
+  width: 200px;
+  background: rgba(83, 92, 104, 0.9);
+  border-top: 50px black;
+  padding: 20px;
+  color: white;
+}
+
+.mapboxgl-ctrl-geocoder {
+  width: 280px !important;
+}
+
+.session {
+  margin-bottom: 20px;
+}
+
+.row {
+  height: 12px;
+  width: 100%;
+}
+
+.colors {
+  background: linear-gradient(
+    to right,
+    #2dc4b2,
+    #3bb3c3,
+    #669ec4,
+    #8b88b6,
+    #a2719b,
+    #aa5e79
+  );
+  margin-bottom: 5px;
+}
+
+.label {
+  width: 15%;
+  display: inline-block;
+  text-align: center;
+}
